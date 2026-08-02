@@ -1,8 +1,17 @@
 aid: unikrn
 name: Unikrn
-description: Unikrn is a company surfaced as a portfolio company of 500-global, pantera-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Unikrn was an esports betting and entertainment company founded in November
+  2014 by Rahul Sood and Karl Flores, headquartered in Seattle and backed by
+  investors including Mark Cuban, Ashton Kutcher, 500 Global, and Pantera
+  Capital. The platform offered real-money and token-based wagering on
+  competitive video game tournaments (CS:GO, League of Legends, Dota 2, and
+  more) and ran a $30M ICO for its UnikoinGold (UKG) cryptocurrency in 2017,
+  which it later disabled as part of a 2021 SEC settlement. Unikrn was acquired
+  by Entain in August 2021, and the unikrn.com betting site was permanently
+  closed on October 20, 2023. The domain now serves only a farewell notice;
+  the company publishes no APIs, developer portal, or public technical
+  artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/unikrn/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +20,30 @@ x-backed-by:
 - pantera-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
+image: https://avatars.githubusercontent.com/u/8815100?v=4
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Esports
+- Betting
+- Gaming
+- Cryptocurrency
+- Entertainment
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +51,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/unikrn-domain-security.yml
 - type: Website
   url: https://unikrn.com
+- type: GitHubOrganization
+  url: https://github.com/unikrn
+- type: LLMsTxt
+  url: llms/unikrn-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

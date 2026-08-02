@@ -1,0 +1,22 @@
+# Unikrn
+
+> Unikrn was an esports betting and entertainment company (founded 2014 by
+> Rahul Sood and Karl Flores; backed by Mark Cuban, Ashton Kutcher, 500 Global,
+> and Pantera Capital). It was acquired by Entain in August 2021, and the
+> unikrn.com betting platform was permanently closed on October 20, 2023.
+> The company is defunct and publishes no APIs, developer portal, SDKs, or
+> other public technical artifacts. unikrn.com now serves only a farewell
+> notice from a catch-all route.
+
+## Company
+
+- [Website (farewell page)](https://unikrn.com): Static goodbye page; betting closed 2023-10-20
+- [GitHub organization](https://github.com/unikrn): Public repos are third-party forks only (no first-party code)
+
+## APIs
+
+None. Unikrn published no public API surface, and the platform is shut down.
+
+## Profile
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/unikrn/refs/heads/main/apis.yml): API Evangelist network profile for Unikrn

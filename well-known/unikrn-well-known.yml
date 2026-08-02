@@ -1,0 +1,38 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of unikrn.com
+host: https://unikrn.com
+note: >-
+  unikrn.com serves a single farewell page (betting closed 2023-10-20) from a
+  catch-all route: every path below returned HTTP 200 with the same HTML shell
+  (soft 404). No genuine well-known discovery documents exist, so no raw files
+  were saved and no WellKnown/SecurityTxt pointers were wired in apis.yml.
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  soft_404: true
+  content: html-spa-shell
+- path: /.well-known/openid-configuration
+  status: 200
+  soft_404: true
+  content: html-spa-shell
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  soft_404: true
+  content: html-spa-shell
+- path: /.well-known/api-catalog
+  status: 200
+  soft_404: true
+  content: html-spa-shell
+- path: /.well-known/ai-plugin.json
+  status: 200
+  soft_404: true
+  content: html-spa-shell
+- path: /llms.txt
+  status: 200
+  soft_404: true
+  content: html-spa-shell
+- path: /robots.txt
+  status: 200
+  soft_404: true
+  content: html-spa-shell
